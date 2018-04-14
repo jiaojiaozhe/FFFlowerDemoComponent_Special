@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFFlowerDemoComponent_Special_Example' do
+  pod 'FFFlowerDemoComponent_Special', :path => '../'
+
+  target 'FFFlowerDemoComponent_Special_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
