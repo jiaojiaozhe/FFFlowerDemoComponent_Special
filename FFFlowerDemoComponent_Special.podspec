@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFFlowerDemoComponent_Special'
-  s.version          = '0.1.0'
+  s.version          = '1'
   s.summary          = 'A short description of FFFlowerDemoComponent_Special.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,16 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'FFFlowerDemoComponent_Special/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FFFlowerDemoComponent_Special' => ['FFFlowerDemoComponent_Special/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'FFFlowerDemoComponent_Special' => ['FFFlowerDemoComponent_Special/Assets/*/*.png','FFFlowerDemoComponent_Special/Assets/*/*.jpg']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'YYWebImage'
+  s.dependency 'Masonry'
+  s.dependency 'ReactiveCocoa'
+  s.dependency 'FFFlowerDemoComponent_UI'
+  s.dependency 'FFFlowerDemoComponent_NetAPI'
 end

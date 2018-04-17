@@ -1,0 +1,6 @@
+framework module FFFlowerDemoComponent_Config {
+  umbrella header "FFFlowerDemoComponent_Config-umbrella.h"
+
+  export *
+  module * { export * }
+}

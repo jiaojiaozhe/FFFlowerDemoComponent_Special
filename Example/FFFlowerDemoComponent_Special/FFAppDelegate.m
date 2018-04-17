@@ -8,11 +8,21 @@
 
 #import "FFAppDelegate.h"
 
+//#import <FFFlowerDemoComponent_Special/FFFlowerDemoComponent_Special-umbrella.h>
+
+
 @implementation FFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+//    int fontsize = FONT_SIZE_10;
+//    [FFHelper connectBaseUrl:@"" params:nil];
+//    FFMainView *mainView = [[FFMainView alloc] init];
+//    [[DBManager sharedManager] createTable];
+//    [[NetworkHelper sharedInstance] requestMethod:@"GET" url:@"" parameters:nil finishBlock:^(id data, NSError *error) {
+//
+//    }];
+    
     return YES;
 }
 

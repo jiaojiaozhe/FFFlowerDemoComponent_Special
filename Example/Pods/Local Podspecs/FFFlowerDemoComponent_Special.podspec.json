@@ -1,0 +1,45 @@
+{
+  "name": "FFFlowerDemoComponent_Special",
+  "version": "1",
+  "summary": "A short description of FFFlowerDemoComponent_Special.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Special",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaojiaozhe": "lanbiao@fengnian.cn"
+  },
+  "source": {
+    "git": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Special.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFFlowerDemoComponent_Special/Classes/**/*",
+  "resource_bundles": {
+    "FFFlowerDemoComponent_Special": [
+      "FFFlowerDemoComponent_Special/Assets/*/*.png",
+      "FFFlowerDemoComponent_Special/Assets/*/*.jpg"
+    ]
+  },
+  "dependencies": {
+    "YYWebImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ReactiveCocoa": [
+
+    ],
+    "FFFlowerDemoComponent_UI": [
+
+    ],
+    "FFFlowerDemoComponent_NetAPI": [
+
+    ]
+  }
+}

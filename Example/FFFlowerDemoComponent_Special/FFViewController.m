@@ -7,12 +7,20 @@
 //
 
 #import "FFViewController.h"
+#import <FFFlowerDemoComponent_Special/FFFlowerDemoComponent_Special-umbrella.h>
 
 @interface FFViewController ()
 
 @end
 
 @implementation FFViewController
+
+- (IBAction) clickEvent:(id) sender{
+//    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSBundle *mainBundle = [NSBundle mainBundle];
+    UISpecialViewController *specialViewController = [[UISpecialViewController alloc] initWithNibName:@"UISpecialViewController" bundle:mainBundle];
+    [self.navigationController pushViewController:specialViewController animated:YES];
+}
 
 - (void)viewDidLoad
 {

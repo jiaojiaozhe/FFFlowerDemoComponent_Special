@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BC80F44E2085AA7B006CECAA /* UISpecialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC80F44D2085AA7B006CECAA /* UISpecialViewController.xib */; };
 		CBAA8F52A1BBF35ECCAC94A6 /* Pods_FFFlowerDemoComponent_Special_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DE13B853918C25CA2E46F3 /* Pods_FFFlowerDemoComponent_Special_Tests.framework */; };
 		D9F3DCB542F77180DDB2A2B8 /* Pods_FFFlowerDemoComponent_Special_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C560029763A46E5C2D692C72 /* Pods_FFFlowerDemoComponent_Special_Example.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		04E4A08582A41BD4FDEAA590 /* Pods-FFFlowerDemoComponent_Special_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Special_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Special_Tests/Pods-FFFlowerDemoComponent_Special_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1AEC706B6013551C9D806B5A /* Pods-FFFlowerDemoComponent_Special_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Special_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Special_Example/Pods-FFFlowerDemoComponent_Special_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1AF933DBA748BBAA6CE7A15B /* FFFlowerDemoComponent_Special.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFFlowerDemoComponent_Special.podspec; path = ../FFFlowerDemoComponent_Special.podspec; sourceTree = "<group>"; };
+		1AF933DBA748BBAA6CE7A15B /* FFFlowerDemoComponent_Special.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_Special.podspec; path = ../FFFlowerDemoComponent_Special.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5BDF0E6F1D4C890B073B2E09 /* Pods-FFFlowerDemoComponent_Special_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Special_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Special_Tests/Pods-FFFlowerDemoComponent_Special_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFFlowerDemoComponent_Special_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFFlowerDemoComponent_Special_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +65,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856013AE5C93D781ED08A6A5 /* Pods-FFFlowerDemoComponent_Special_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Special_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Special_Example/Pods-FFFlowerDemoComponent_Special_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC80F44D2085AA7B006CECAA /* UISpecialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UISpecialViewController.xib; sourceTree = "<group>"; };
 		C560029763A46E5C2D692C72 /* Pods_FFFlowerDemoComponent_Special_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFFlowerDemoComponent_Special_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C681DFF6C18B1A4857AF1595 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E9B015DEBDAA4A8F2BAAD012 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C681DFF6C18B1A4857AF1595 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E9B015DEBDAA4A8F2BAAD012 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for FFFlowerDemoComponent_Special */ = {
 			isa = PBXGroup;
 			children = (
+				BC80F44D2085AA7B006CECAA /* UISpecialViewController.xib */,
 				6003F59C195388D20070C39A /* FFAppDelegate.h */,
 				6003F59D195388D20070C39A /* FFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -250,6 +253,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jiaojiaozhe;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3AGWUAQ7VV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -281,6 +287,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				BC80F44E2085AA7B006CECAA /* UISpecialViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -337,11 +344,41 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FFFlowerDemoComponent_Special_Example/Pods-FFFlowerDemoComponent_Special_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config.framework",
+				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Data/FFFlowerDemoComponent_Data.framework",
+				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_NetAPI/FFFlowerDemoComponent_NetAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Special/FFFlowerDemoComponent_Special.framework",
+				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework",
+				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_UI/FFFlowerDemoComponent_UI.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Config.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Data.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_NetAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Special.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Tools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_UI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,6 +570,7 @@
 			baseConfigurationReference = 856013AE5C93D781ED08A6A5 /* Pods-FFFlowerDemoComponent_Special_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFFlowerDemoComponent_Special/FFFlowerDemoComponent_Special-Prefix.pch";
 				INFOPLIST_FILE = "FFFlowerDemoComponent_Special/FFFlowerDemoComponent_Special-Info.plist";
@@ -548,6 +586,7 @@
 			baseConfigurationReference = 1AEC706B6013551C9D806B5A /* Pods-FFFlowerDemoComponent_Special_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFFlowerDemoComponent_Special/FFFlowerDemoComponent_Special-Prefix.pch";
 				INFOPLIST_FILE = "FFFlowerDemoComponent_Special/FFFlowerDemoComponent_Special-Info.plist";

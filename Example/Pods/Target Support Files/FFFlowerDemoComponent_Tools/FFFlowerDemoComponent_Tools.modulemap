@@ -1,0 +1,6 @@
+framework module FFFlowerDemoComponent_Tools {
+  umbrella header "FFFlowerDemoComponent_Tools-umbrella.h"
+
+  export *
+  module * { export * }
+}
